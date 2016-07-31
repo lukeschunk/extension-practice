@@ -4,9 +4,10 @@
   "name": "Practice Extension",
   "description": "Chrome Extensions are Cool",
   "version": "1.0",
-
+  "icons": { "16": "parrot-1.png",
+             "48": "parrot-1.png",
+            "128": "parrot-1.png" },
   "browser_action": {
-   "default_icon": "icon.jpg",
    "default_popup": "index.html"
   }
 }
