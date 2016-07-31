@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Practice Extension",
+  "description": "Chrome Extensions are Cool",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.jpg",
+   "default_popup": "index.html"
+  }
+}
