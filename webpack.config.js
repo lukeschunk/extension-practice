@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    app: './app.js'
+    app: './app/app.js'
   },
   module: {
     preLoaders: [
@@ -16,13 +16,13 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          presets: ["es2015", "react"]
+          presets: ['es2015', 'react']
         }
       }
     ]
   },
   output: {
-    filename: './app/bundle.js'
+    filename: './app/test.js'
   },
   devtool: 'eval'
 };
